@@ -6,22 +6,22 @@ new=[]
 for line in file:
     # 0.4.26 0.5.17 0.6.12 0.7.1
     if 'pragma solidity' in line :
-      if "^0.4." in line:
-          ind = line.find('^0.4.')
+      if "0.4." in line:
+          ind = line.find('0.4.')
           ind1 = line.find(';')
-          line=line[:ind]+'^0.4.26'+line[ind1:]
-      if "^0.5." in line:
-          ind = line.find('^0.5.')
+          line=line[:ind]+'0.4.26'+line[ind1:]
+      if "0.5." in line:
+          ind = line.find('0.5.')
           ind1 = line.find(';')
-          line=line[:ind]+'^0.5.17'+line[ind1:]
-      if "^0.6." in line:
-          ind = line.find('^0.6.')
+          line=line[:ind]+'0.5.17'+line[ind1:]
+      if "0.6." in line:
+          ind = line.find('0.6.')
           ind1 = line.find(';')
-          line=line[:ind]+'^0.6.12'+line[ind1:]
-      if "^0.7." in line:
-          ind = line.find('^0.7.')
+          line=line[:ind]+'0.6.12'+line[ind1:]
+      if "0.7." in line:
+          ind = line.find('0.7.')
           ind1 = line.find(';')
-          line=line[:ind]+'^0.7.1'+line[ind1:]
+          line=line[:ind]+'0.7.1'+line[ind1:]
     if 'lAT' in line:
         line.replace('LAT','ATP')
     if 'lAX' in line:
