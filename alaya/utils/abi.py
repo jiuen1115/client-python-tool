@@ -22,7 +22,9 @@ from alaya.packages.eth_utils import (
 from alaya.exceptions import (
     FallbackNotFound,
 )
-
+# from alaya.utils.ens import (
+#     is_ens_name,
+# )
 from alaya.utils.formatters import (
     recursive_map,
 )

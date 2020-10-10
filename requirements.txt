@@ -1,5 +1,4 @@
 typing
-eth_typing 
-rlp
+eth_typing
 re
 json

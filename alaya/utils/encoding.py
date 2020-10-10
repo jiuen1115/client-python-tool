@@ -1,7 +1,6 @@
 # String encodings and numeric representations
 import json
 import re
-import rlp
 from alaya.packages.eth_utils import (
     add_0x_prefix,
     big_endian_to_int,
@@ -44,17 +43,17 @@ def parse_str(raw_data):
     return json.loads(data)
 
 
-def analyze(transaction_receipt):
-    try:
-        data = transaction_receipt['logs'][0]['data']
-        if data[:2] == '0x':
-            data = data[2:]
-        data_bytes = rlp.decode(bytes.fromhex(data))[0]
-        event_data = bytes.decode(data_bytes)
-        event_data = json.loads(event_data)
-        return event_data
-    except Exception as e:
-        raise e
+# def analyze(transaction_receipt):
+#     try:
+#         data = transaction_receipt['logs'][0]['data']
+#         if data[:2] == '0x':
+#             data = data[2:]
+#         data_bytes = rlp.decode(bytes.fromhex(data))[0]
+#         event_data = bytes.decode(data_bytes)
+#         event_data = json.loads(event_data)
+#         return event_data
+#     except Exception as e:
+#         raise e
 
 
 def hex_encode_abi_type(abi_type, value, force_size=None):

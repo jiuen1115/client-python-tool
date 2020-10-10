@@ -2,7 +2,7 @@ import re
 from alaya.utils.transfer_address import addresstoapt
 
 file = open("D:/client-sdk/for PR/python tool/test/testaddress1.py","r+",encoding = 'utf-8')
-new=[]
+new = []
 for line in file:
     # 0.4.26 0.5.17 0.6.12 0.7.1
     if 'pragma solidity' in line :
