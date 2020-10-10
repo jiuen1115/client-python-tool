@@ -1,7 +1,9 @@
 from alaya.packages.platon_keys.utils import bech32
 from alaya.packages.eth_utils import to_checksum_address
 from alaya.utils.encoding import tobech32address
-from alaya.packages.platon_keys.utils.address import MIANNETHRP, TESTNETHRP
+
+MIANNETHRP = "atp"
+TESTNETHRP = "atx"
 
 def addresstoapt(arg: str):
     if isinstance(arg,str):

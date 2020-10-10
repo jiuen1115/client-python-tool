@@ -1,6 +1,6 @@
 from typing import Any, AnyStr
 
-from eth_typing import Address, AnyAddress, ChecksumAddress, HexAddress, HexStr
+from alaya.packages.eth_typing import Address, AnyAddress, ChecksumAddress, HexAddress, HexStr
 from .conversions import hexstr_if_str, to_hex
 from .crypto import keccak
 from .hexadecimal import (

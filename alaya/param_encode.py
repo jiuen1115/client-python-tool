@@ -1,7 +1,5 @@
 from alaya.fvnhash import fnv1_64
-from hexbytes import (
-    HexBytes,
-)
+
 def hexstr2bytes(address: str):
     pos = 0
     len_str = len(address)

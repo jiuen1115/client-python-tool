@@ -4,11 +4,11 @@ import warnings
 import pkg_resources
 
 from .abi import (  # noqa: F401
-    event_abi_to_log_topic,
+    # event_abi_to_log_topic,
     event_signature_to_log_topic,
     function_abi_to_4byte_selector,
     function_signature_to_4byte_selector,
-    topic_decode,
+    # topic_decode,
 )
 from .address import (  # noqa: F401
     is_address,

@@ -1,6 +1,6 @@
 from typing import Callable, TypeVar, Union
 
-from eth_typing import HexStr, Primitives
+from alaya.packages.eth_typing import HexStr, Primitives
 
 from .decorators import validate_conversion_arguments
 from .encoding import big_endian_to_int, int_to_big_endian
