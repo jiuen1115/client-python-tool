@@ -7,7 +7,7 @@ import string
 from typing import Any, AnyStr
 import warnings
 
-from eth_typing import HexStr
+from alaya.packages.eth_typing import HexStr
 
 from .types import is_string, is_text
 

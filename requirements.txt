@@ -1,4 +1,3 @@
 typing
-eth_typing
 re
 json
