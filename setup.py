@@ -5,7 +5,7 @@ from setuptools import (
 )
 
 setup(
-    name='client-python-tool.py',
+    name='client-python-tool',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='0.7.3.1',
     description="""PlatON alaya python tool""",
