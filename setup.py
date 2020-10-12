@@ -18,7 +18,7 @@ setup(
         "toolz>=0.9.0,<1.0.0;implementation_name=='pypy'",
         "cytoolz>=0.9.0,<1.0.0;implementation_name=='cpython'",
         "eth-hash[pycryptodome]>=0.2.0,<1.0.0",
-        "pypiwin32>=223;platform_system=='Windows'", 'collections2'
+        "pypiwin32>=223;platform_system=='Windows'"
     ],
     setup_requires=['setuptools-markdown'],
     python_requires='>=3.6,<4',
