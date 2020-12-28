@@ -2,7 +2,7 @@
 
 
 
-# client-python-tool
+# client-python-tool.py
 
 [![Join the chat at https://gitter.im/ethereum/web3.py](https://badges.gitter.im/ethereum/web3.py.svg)](https://github.com/PlatONnetwork/client-sdk-python)
 
@@ -28,7 +28,7 @@ client-python-tool 是一个服务于Platon python sdk 的转换工具，功能�
 
 #### **2** 可使用pip直接安装：
 
-​    $ pip install client-python-tool
+​    $ pip install client-python-tool.py
 
 ​    或下载代码，在python编辑器中使用。git bash 拉取源代码，如下操作
 
