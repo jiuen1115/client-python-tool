@@ -7,7 +7,7 @@ from setuptools import (
 setup(
     name='client-python-tool.py',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
-    version='0.7.4',
+    version='0.7.2',
     description="""PlatON alaya python tool""",
     # long_description_markdown_filename='README.md',
     author='john zhang',
@@ -26,7 +26,8 @@ setup(
     zip_safe=False,
     keywords='platon',
     packages=find_packages(),
-    package_data={'':['*.md'],'client-python-tool':['testfile.py']},
+    package_data={'':['*.md']},
+    scripts=['testfile.py'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
