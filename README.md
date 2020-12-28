@@ -44,7 +44,8 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple 第三方包名称
 
 ### 二、使用      
 
-1、使用pip install直接安装的，在命令行中切换到testfile.py所在目录下，运行 python testfile.py file-path  .其中file-path为待转换文件的目录路径，具体操作如下：      
+1、使用pip install直接安装的，在命令行中切换到testfile.py所在目录下(python安装环境的Scripts目录下)，
+运行 python testfile.py file-path  .其中file-path为待转换文件的目录路径，具体操作如下：      
 ```
 client-python-tool> python testfile.py D:\python-tool\client-python-tool\test\testaddress1.py
 ```
