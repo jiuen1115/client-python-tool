@@ -2,7 +2,7 @@
 
 
 
-# client-python-tool.py
+# client-python-tool
 
 [![Join the chat at https://gitter.im/ethereum/web3.py](https://badges.gitter.im/ethereum/web3.py.svg)](https://github.com/PlatONnetwork/client-sdk-python)
 
@@ -28,7 +28,7 @@ client-python-tool 是一个服务于Platon python sdk 的转换工具，功能�
 
 #### **2** 可使用pip直接安装：
 
-​    $ pip install client-python-tool.py
+​    $ pip install client-python-tool
 
 ​    或下载代码，在python编辑器中使用。git bash 拉取源代码，如下操作
 
@@ -44,8 +44,8 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple 第三方包名称
 
 ### 二、使用      
 
-1、使用pip install直接安装的，在命令行中切换到testfile.py所在目录下(python安装环境的Scripts目录下)，
-运行 python testfile.py file-path  .其中file-path为待转换文件的目录路径，具体操作如下：      
+1、使用pip install直接安装的，在命令行中切换到testfile.py所在目录下(client-python-tool包所在目录下或者python安装环境的Scripts目录下，两处的testfile.py同样效果)，运行 python testfile.py file-path  .其中file-path为待转换文件的目录路径，具体操作如下：      
+
 ```
 Scripts> python testfile.py D:\python-tool\client-python-tool\test\testaddress1.py
 ```
