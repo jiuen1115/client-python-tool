@@ -44,7 +44,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple 第三方包名称
 
 ### 二、使用
 
-1、使用pip install直接安装的，在命令行中运行 python testfile.py file-path   其中file-path为待转换文件的目录路径，如下：      
+1、使用pip install直接安装的，在命令行中切换到testfile.py所在目录下，运行 python testfile.py file-path ， 其中file-path为待转换文件的目录路径，如下：      
 
 ```
 client-python-tool> python testfile.py D:\python-tool\client-python-tool\test\testaddress1.py
@@ -55,10 +55,10 @@ client-python-tool> python testfile.py D:\python-tool\client-python-tool\test\te
 2、 使用github下载的代码，在testfile.py文件中 ，第4行，将需要转化的脚本文档所在的目录地址写入 open后的括号中，如下所示：
 
 ```python
-file = open("D:/clinet-python tool/test/testaddress1.py","r+",encoding = 'utf-8')
+file = open("D:/clinet-python-tool/test/testaddress1.py","r+",encoding = 'utf-8')
 ```
 
-​       其中"D:/clinet-python tool/test/testaddress1.py" 就是所要修改脚本/文档的地址目录。
+​       其中"D:/clinet-python-tool/test/testaddress1.py" 就是所要修改脚本/文档的地址目录。
 
 然后运行testfile.py ，运行完毕后，自动转换成功。
 
